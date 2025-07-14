@@ -177,7 +177,6 @@ a {
   padding-top:160px;
 }
 
-
 .column3 {
   float: left;
   width: 50%;
@@ -204,10 +203,18 @@ a {
 }
 
 
-/* --- Skills --- */
+/* --- Resources --- */
 
+.resource-row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
 
-
+.resource-col{
+  flex: 33.33%;
+  padding: 5px;
+}
 
 /* Animation from W3 Schools (atp im just messing around) */
 
